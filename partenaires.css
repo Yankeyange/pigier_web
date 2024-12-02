@@ -1,0 +1,126 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: white;
+}
+
+.conteneur {
+  margin: 20px;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: grey;
+  padding: 30px;
+  color: aliceblue;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  margin-bottom: 15px;
+}
+
+
+
+.logo-pigier {
+  -webkit-mask-image: linear-gradient(black, transparent);
+   mask-image: linear-gradient(black, transparent);
+   border-radius: 50%;
+   width: 100px;
+ }
+
+
+header nav ul {
+  display: flex;
+  list-style: none;
+}
+
+header nav ul li {
+  margin: 0 20px;
+  
+}
+
+header nav ul li a {
+  text-decoration: none;
+  color: orangered;
+  font-size: 24px;
+  
+}
+
+header nav ul :hover {
+  color: white;
+}
+
+header .search input {
+  padding: 20px;
+  font-size: 10px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+
+.partenaires {
+  width: 80%;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+}
+
+.partenaires h1 {
+  border-bottom: 2px solid #ddd;
+  padding-bottom: 10px;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.partenaires p {
+  line-height: 1.6;
+  margin-bottom: 10px;
+  color: #555;
+}
+.partenaires, .certif, .formation, .avantage, .seminaires {
+  width: 80%;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+}
+
+.partenaires h1, .certif h1, .formation h1, .avantage h1, .seminaires h1 {
+  border-bottom: 2px solid #ddd;
+  padding-bottom: 10px;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.partenaires p, .certif p, .formation p, .avantage p, .seminaires p {
+  line-height: 1.6;
+  margin-bottom: 10px;
+  color: #555;
+}
+
+.services ul, .certif ul, .formation ul, .avantage ul {
+  list-style: disc;
+  padding-left: 20px;
+}
+
+.services li, .certif li, .formation li, .avantage li {
+  margin-bottom: 10px;
+}
+
+.services ul ul, .certif ul ul, .formation ul ul, .avantage ul ul {
+  list-style: circle;
+  padding-left: 20px;
+}
